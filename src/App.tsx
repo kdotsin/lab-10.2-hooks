@@ -1,8 +1,12 @@
-function App() {
+import { PaginationDemo } from "./components/PaginationDemo";
+import { DebounceSearchDemo } from "./components/DebounceSearchDemo";
 
+export default function App() {
   return (
-    <div>hello world</div>
-  )
+    <div>
+      <PaginationDemo />
+      <hr />
+      <DebounceSearchDemo />
+    </div>
+  );
 }
-
-export default App
